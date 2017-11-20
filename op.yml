@@ -92,7 +92,7 @@ run:
         outputs:
           eventHubConnectionString: connectionString
     - container:
-        image: { ref: 'opspecpkgs/azure.apimanagement.logger.create:1.0.1' }
+        image: { ref: 'opspecpkgs/azure.apimanagement.logger.create:1.0.0' }
         cmd: [ node, /index.js ]
         files: { /index.js }
         envVars:
